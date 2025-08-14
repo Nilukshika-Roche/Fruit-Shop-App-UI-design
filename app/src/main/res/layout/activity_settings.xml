@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/arr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+
+        android:backgroundTint="@color/yellow"
+        android:text="Update"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.706" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="User Name"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.611" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Email address"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.516" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="80dp"
+        android:hint="Full Name"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.425" />
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/pass"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.761"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689" />
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.364" />
+
+    <ImageView
+        android:id="@+id/imageView52"
+        android:layout_width="297dp"
+        android:layout_height="241dp"
+        android:padding="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/download"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView15"
+        android:layout_width="404dp"
+        android:layout_height="60dp"
+        android:background="@drawable/nav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/proff"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.316"
+        app:layout_constraintStart_toStartOf="@+id/imageView59"
+        app:layout_constraintTop_toTopOf="@+id/recyclerView15"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <ImageView
+        android:id="@+id/imageView59"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/homee"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="@+id/recyclerView15"
+        app:layout_constraintTop_toTopOf="@+id/recyclerView15"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <ImageView
+        android:id="@+id/imageView61"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/book"
+        app:layout_constraintBottom_toBottomOf="@+id/recyclerView15"
+        app:layout_constraintEnd_toEndOf="@+id/recyclerView15"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="@+id/imageView59"
+        app:layout_constraintTop_toTopOf="@+id/recyclerView15"
+        app:layout_constraintVertical_bias="0.542" />
+
+    <ImageView
+        android:id="@+id/imageView58"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/cart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/recyclerView15"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="@+id/imageView59" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

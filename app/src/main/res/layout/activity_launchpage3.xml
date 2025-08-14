@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".launchpage3">
+
+
+    <ImageView
+        android:layout_width="675dp"
+        android:layout_height="497dp"
+        android:padding="3dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/grape"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="-215dp" />
+
+    <TextView
+        android:layout_width="390dp"
+        android:layout_height="155dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/title4"
+        android:textColor="@color/black"
+        android:textSize="37sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.904"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.813" />
+
+    <Button
+        android:id="@+id/lets"
+        android:layout_width="202dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/yellow"
+
+        android:text="lets Get started >"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="387dp"
+        android:layout_height="103dp"
+        android:text=" We bring you high-quality,freshest, ripest, and most flavorful fruits every time."
+        android:textColor="@color/gray"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.791"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.956" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
